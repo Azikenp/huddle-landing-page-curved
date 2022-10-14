@@ -1,0 +1,541 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(207, 100%, 98%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 365px;
+    background-color: white;
+}
+
+header{
+    padding: 2rem 1rem;
+}
+
+.page-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-heading img{
+    width: 5.5rem;
+    height: 0.835rem;
+}
+
+.page-heading-btn{
+    width: 5rem;
+    height: 1.29rem;
+    border-radius: 30px;
+    font-size: 10px;
+    background-color: white;
+    color: hsl(321, 100%, 78%);
+    border: 1px solid hsl(321, 100%, 78%);
+}
+.page-heading-btn:hover{
+    opacity: .4;
+    cursor: pointer;
+}
+
+.header-section{
+    margin-top: 4.5rem;
+    padding: 0 1rem;
+}
+
+.header-section h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+
+.header-section p{
+    margin-top: 1.6rem;
+    font-size: 14px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.header-section-btn{
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-size: 10.5px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 30px;
+    height: 2rem;
+    width: 11rem;
+    font-weight: 600;
+}
+.header-section-btn:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
+.header-section img{
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.main-content{
+    padding: 0rem 0rem;
+}
+
+.communities, .messages-sent{
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 8rem;
+    text-align: left;
+}
+
+.new-sec h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.new-sec img{
+    width: 1.3rem;
+}
+
+.new-sec p{
+    font-size: 10.5px;
+}
+
+.new-sec .messages-sent p{
+    text-align: center;
+    width: 4rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-left: 1.2rem;
+}
+
+.new-sec .messages-sent h2{
+    font-size: 37px;
+}
+
+.first-sec{
+    margin-top: 10rem;
+}
+
+.first-sec{
+    background-color: #f6fbff;
+    margin-top: -4rem;
+    /* background-image: url(./images/bg-section-top-mobile-1.svg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: top -30px right -30px; */
+}
+
+article .back-div{
+    height: 10rem;
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/bg-section-top-mobile-1.svg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: top -30px right -30px;
+}
+
+article .back2-div{
+    height: 15rem;
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/bg-section-top-mobile-2.svg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: top 60px right -70px;
+}
+
+article .bottom-div{
+    height: 10rem;
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/bg-section-bottom-mobile-1.svg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    /* background-position: top -30px right -30px; */
+}
+
+article .bottom2-div{
+    height: 10rem;
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/bg-section-bottom-mobile-2.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: top -30px right -30px; */
+}
+
+footer .curved-foot{
+    height: 15rem;
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/bg-footer-top-mobile.svg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: top 180px right -30px;
+}
+
+.sec{
+    background-color: white;
+}
+
+.first-sec img{
+    margin-top: 10rem;
+    width: 18rem;
+}
+
+.first-sec h3{
+    margin-top: 4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-sec p{
+    padding: 0 1.5rem;
+    padding-bottom: 2rem;
+    font-size: 15px;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+
+.extra-section{
+    margin-top: 20rem;
+    padding: 0 3rem;
+}
+
+.extra-section h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+}
+
+.extra-section input{
+    margin-top: 1.7rem;
+    height: 2rem;
+    width: 11rem;
+    border-radius: 30px;
+    color: white;
+    font-size: 11px;
+    background-color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+}
+.extra-section input:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
+.black-footer{
+    background-color: #00252e;
+    color: white;
+    margin-top: -0.5rem;
+    padding: 2rem 0;
+}
+
+.news{
+    text-align: left;
+    padding: 0 1rem;
+    /* color: white; */
+}
+
+.news h4{
+    font-family: 'Poppins', sans-serif;
+}
+
+.news p{
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.news input{
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 7px;
+    margin-top: 1.5rem;
+}
+
+.news button{
+    position: relative;
+    left: 165px;
+    width: 50%;
+    height: 2.3rem;
+    margin-top: 0.7rem;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 7px;
+    border: 1px solid hsl(322, 100%, 66%);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.news button:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
+.left-footer{
+    margin-top: 5rem;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.footer-logo{
+    background-color: white;
+    width: 8rem;
+}
+
+.para-div{
+    margin-top: 1rem;
+    font-size: 13.7px;
+}
+
+.logo-div{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.logo-div:nth-of-type(3){
+    margin-top: 0.7rem;
+}
+
+.logo-div img{
+    width: 1rem;
+    margin-right: 1rem;
+}
+
+.logo-div p{
+    font-size: 11px;
+}
+
+.footer-logos{
+    margin-top: 3rem;
+    display: flex;
+}
+
+.footer-logos img{
+    display: block;
+    width: 17px;
+}
+
+.footer-logos img:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.footer-logos img:nth-child(1){
+    margin-right: 10px;
+}
+
+.footer-logos img:nth-child(2){
+    margin-right: 10px;
+}
+    
+@media screen and (min-width:768px) {
+    .container{
+        width:99.9%;
+    }   
+    
+    .page-heading{
+        padding: 0rem 2rem ;
+    }
+
+    .page-heading img{
+        width: 10rem;
+        height: 1.5rem;
+    }
+
+    .header-section h1{
+        font-size: 30px;
+    }
+
+    .header-section p{
+        padding: 0rem 10rem;
+    }
+
+    .header-section img{
+        width: 80%;
+    }
+
+    .new-sec{
+        display: flex;
+        align-items: center;margin-top: 2rem;
+    }
+
+    .first-sec{
+        display: flex;
+        align-items: center;
+        margin-top: -0.5rem;
+        text-align: left;
+        flex-direction: row-reverse;
+    }
+
+    .first-sec img{
+        margin-left : 2rem;
+        margin-right: 3rem;
+    }
+
+    .first-sec p{
+        margin-left: 4rem;
+    }
+
+    .first-sec h3{
+        margin-left: 5.456rem;
+    }
+
+    .first-sec:nth-of-type(3){
+        flex-direction: row;
+    }
+
+    .first-sec:nth-of-type(3) img{
+        margin-left: 3rem;
+        margin-right: 1rem;
+    }
+
+    .first-sec:nth-of-type(3) p{
+        margin-right: 2rem;
+        margin-left: 3rem;
+    }
+
+    .first-sec:nth-of-type(3) h3{
+        margin-left: 4.5rem;
+    }
+
+
+    .black-footer{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .left-footer{
+        padding: 0rem 3rem 3rem 2rem;
+    }
+
+    .logo-div{
+        margin-top: 2rem;
+    }
+
+    .last-flex{
+        display: flex;
+        align-items: center;
+    }
+
+    .news{
+        padding: 0rem 2rem 3rem 0rem;
+    }
+
+    .news p{
+        font-size: 13px;
+        padding-right: 4rem;
+    }
+
+    footer .news input{
+        width: 14rem;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    footer .news button{
+        width: 8rem;
+        margin: 0;
+        padding: 0;
+        margin-left: -9.5rem;
+        margin-top: 20px;
+    }
+
+    article .back-div{
+        height: 10rem;
+        padding: 0;
+        margin: 0;
+        background-image: url(./images/bg-section-top-desktop-1.svg);
+        background-size: 120%;
+        background-repeat: no-repeat;
+        background-position: top 40px right -30px;
+    }
+    
+    article .back2-div{
+        height: 15rem;
+        padding: 0;
+        margin: 0;
+        background-image: url(./images/bg-section-top-desktop-2.svg);
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position: top 120px right -70px;
+    }
+    
+    article .bottom-div{
+        height: 10rem;
+        padding: 0;
+        margin: 0;
+        background-image: url(./images/bg-section-bottom-desktop-1.svg);
+        background-size: 120%;
+        background-repeat: no-repeat;
+        background-position: top -10px right -30px;
+    }
+    
+    article .bottom2-div{
+        height: 10rem;
+        padding: 0;
+        margin: 0;
+        background-image: url(./images/bg-section-bottom-desktop-2.svg);
+        background-size: 120%;
+        background-repeat: no-repeat;
+        background-position: top 0px right -30px; 
+    }
+    
+    footer .curved-foot{
+        height: 15rem;
+        padding: 0;
+        margin: 0;
+        background-image: url(./images/bg-footer-top-desktop.svg);
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position: top 135px right -30px;
+    }
+
+    .extra-section{
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (min-width:800px) {
+    footer .curved-foot{
+        background-position: top 120px right -30px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    footer .curved-foot{
+        background-position: top 110px right -30px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    footer .curved-foot{
+        background-position: top 93px right -30px;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    footer .curved-foot{
+        background-position: top 80px right -30px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    footer .curved-foot{
+        background-position: top 65px right -30px;
+    }
+}
